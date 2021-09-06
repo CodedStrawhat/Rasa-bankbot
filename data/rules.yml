@@ -11,3 +11,8 @@ rules:
   steps:
   - intent: bot_challenge
   - action: utter_iamabot
+
+-rule: Ask about card again if denied
+  steps: 
+  -intent: deny
+  -text: "Which service would you like?"
