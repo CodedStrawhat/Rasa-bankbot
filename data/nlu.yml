@@ -1,0 +1,154 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+
+- intent: card
+  examples: |
+    - cards
+    - ATM card
+    - Debit Card
+    - Credit Card
+    - Debit
+    - Credit
+    - ATM
+    - Plastic card
+
+- intent: debit_card
+  examples:
+    - I want to issue a debit card.
+    - I need debit card.
+    - My Debit card is lost so I want to apply for another
+    - Debit Card.
+    - I want to apply for debit card
+
+- intent: credit_card
+  examples:
+    - I want to issue a credit card.
+    - I need credit card.
+    - My credit card is lost so I want to apply for another
+    - credit Card.
+    - I want to apply for credit card
+
+- intent: netbanking
+  examples:
+    - I want Net Banking.
+    - I need to start Net Banking.
+    - provide me the facility of net banking
+    - Net Banking.
+    - Is KYC necessay for net banking.
+
+- intent: MasterCard
+  examples:
+    - what is mastercard.
+    - Please give me some information about MasterCard.
+    - What are the facilities of masterCard.
+    - Is MasterCard is Indian ?
+    - Should I convert to mastercard.
+
+- intent: VisaCard
+  examples:
+    - what is visa card.
+    - Please give me some information about Visa Card.
+    - What are the facilities of Visa card.
+    - Is Visa Card is Indian ?
+    - Should I convert to Visa Card.
+
+- intent: RupayCard
+  examples:
+    - what is Rupay Card.
+    - Please give me some information about Rupay Card.
+    - What are the facilities of Rupay Card.
+    - Is Rupay Card is Indian ?
+    - Should I convert to Rupay Card. 
+  
+
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
