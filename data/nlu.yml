@@ -51,7 +51,6 @@ nlu:
     - I need to start Net Banking.
     - provide me the facility of net banking
     - Net Banking.
-    - Is KYC necessay for net banking.
 
 - intent: MasterCard
   examples:

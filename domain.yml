@@ -21,6 +21,12 @@ responses:
   - text: "cards available – including credit, debit and prepaid – offers enormous flexibility,"
   - text: "follow the link for more info : http://cashlessindia.gov.in/banking_cards.html"
 
+  utter_debit_card:
+  utter_credit_card:
+  utter_mastercard:
+  utter_net_banking:
+  utter_confirm:
+
   utter_did_that_help:
   - text: "Did that help you?"
 
