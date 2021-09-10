@@ -30,7 +30,7 @@ nlu:
     - Plastic card
 
 - intent: debit_card
-  examples:
+  examples: |
     - I want to issue a debit card.
     - I need debit card.
     - My Debit card is lost so I want to apply for another
@@ -38,7 +38,7 @@ nlu:
     - I want to apply for debit card
 
 - intent: credit_card
-  examples:
+  examples: |
     - I want to issue a credit card.
     - I need credit card.
     - My credit card is lost so I want to apply for another
@@ -46,14 +46,14 @@ nlu:
     - I want to apply for credit card
 
 - intent: netbanking
-  examples:
+  examples: |
     - I want Net Banking.
     - I need to start Net Banking.
     - provide me the facility of net banking
     - Net Banking.
 
 - intent: MasterCard
-  examples:
+  examples: |
     - what is mastercard.
     - Please give me some information about MasterCard.
     - What are the facilities of masterCard.
@@ -61,7 +61,7 @@ nlu:
     - Should I convert to mastercard.
 
 - intent: VisaCard
-  examples:
+  examples: |
     - what is visa card.
     - Please give me some information about Visa Card.
     - What are the facilities of Visa card.
@@ -69,7 +69,7 @@ nlu:
     - Should I convert to Visa Card.
 
 - intent: RupayCard
-  examples:
+  examples: |
     - what is Rupay Card.
     - Please give me some information about Rupay Card.
     - What are the facilities of Rupay Card.
