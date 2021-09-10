@@ -22,9 +22,13 @@ responses:
   - text: "follow the link for more info : http://cashlessindia.gov.in/banking_cards.html"
 
   utter_debit_card:
+  - text: "Here is your debit card"
   utter_credit_card:
+  - text: "Here is your credit card"
   utter_mastercard:
+  - text: "Here is your mastercard"
   utter_net_banking:
+  - text: "Here is your netbanking account"
   utter_confirm:
 
   utter_did_that_help:
