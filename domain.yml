@@ -16,10 +16,9 @@ responses:
   - text: "I am BankBot, How can I help you Today?"
 
   utter_inform_basic_knowlwdge:
-  - text: "Banking cards offer consumers more security, convenience, and control" 
-  - text: "than any other payment method. The wide variety of" 
-  - text: "cards available – including credit, debit and prepaid – offers enormous flexibility,"
-  - text: "follow the link for more info : http://cashlessindia.gov.in/banking_cards.html"
+  - text: "Banking cards offer consumers more security, convenience, and control than any other payment method. The wide variety of
+  cards available – including credit, debit and prepaid – offers enormous flexibility,
+  follow the link for more info : http://cashlessindia.gov.in/banking_cards.html"
 
   utter_debit_card:
   - text: "Here is your debit card"
@@ -29,7 +28,7 @@ responses:
   - text: "Here is your mastercard"
   utter_net_banking:
   - text: "Here is your netbanking account"
-  utter_confirm:
+  
 
   utter_did_that_help:
   - text: "Did that help you?"
@@ -42,6 +41,9 @@ responses:
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
+
+  utter_deny:
+  - text: "Which service would you like?"
 
 session_config:
   session_expiration_time: 60

@@ -38,6 +38,6 @@ stories:
     - action : utter_mastercard
 
 - story : 
- steps: 
+  steps: 
   - intent: goodbye 
   - action: utter_goodbye
