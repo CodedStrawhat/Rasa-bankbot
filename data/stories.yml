@@ -2,40 +2,87 @@ version: "2.0"
 
 stories:
 
-- story: greeting
+- story: basic
   steps:
   - intent: greet
   - action: utter_greet
   - intent: card
   - action: utter_inform_basic_knowlwdge
+  - intent: goodbye
+  - action: utter_happy
 
 - story : debit
   steps:
-  - intent: debit_card
+  - intent: greet
+  - action: utter_greet
+  - action: utter_help
+  - intent: debitcard
   - action: utter_confirm
   - intent: affirm
   - intent: utter_debit_card
+  - intent: goodbye
+  - action: utter_goodbye
 
 - story : credit
   steps:
-  - intent: credit_card
+  - intent: greet
+  - action: utter_greet
+  - action: utter_help
+  - intent: creditcard
   - action: utter_confirm
   - intent: affirm
   - action: utter_credit_card
+  - intent: goodbye
+  - action: utter_happy
 
 - story : netbanking
   steps:
+    - intent: greet
+    - action: utter_greet
+    - action: utter_help
     - intent: netbanking
     - action: utter_confrim
     - intent: affirm
     - action : utter_net_banking
+    - intent: goodbye
+    - action: utter_goodbye
 
 - story : mastercard
   steps:
+    - intent: greet
+    - action: utter_greet
+    - action: utter_help
     - intent: mastercard
     - action: utter_confirm
     - intent: affirm
     - action : utter_mastercard
+    - intent: goodbye
+    - action: utter_goodbye
+
+-	story: VisaCard
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - action: utter_help
+    -	intent: visarcard
+    -	action: utter_confirm
+    -	intent: affirm
+    -	action: utter_visacard
+    - intent: goodbye
+    - action: utter_goodbye
+
+-	story: RupayCard
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - action: utter_help
+    -	intent: rupaycard
+    -	action: utter_confirm
+    -	intent: affirm
+    -	action: utter_rupaycard
+    - intent: goodbye
+    - action: utter_goodbye
+
 
 - story : 
   steps: 

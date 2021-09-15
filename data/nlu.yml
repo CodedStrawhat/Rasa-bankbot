@@ -21,15 +21,20 @@ nlu:
 - intent: card
   examples: |
     - cards
+    - what are cards
     - ATM card
+    - what is ATM cards
     - Debit Card
+    - what is a debit card
     - Credit Card
+    - what is a credit card
     - Debit
     - Credit
     - ATM
     - Plastic card
+    - what is a plastic card
 
-- intent: debit_card
+- intent: debitcard
   examples: |
     - I want to issue a debit card.
     - I need debit card.
@@ -37,7 +42,7 @@ nlu:
     - Debit Card.
     - I want to apply for debit card
 
-- intent: credit_card
+- intent: creditcard
   examples: |
     - I want to issue a credit card.
     - I need credit card.
@@ -52,7 +57,7 @@ nlu:
     - provide me the facility of net banking
     - Net Banking.
 
-- intent: MasterCard
+- intent: mastercard
   examples: |
     - what is mastercard.
     - Please give me some information about MasterCard.
@@ -60,7 +65,7 @@ nlu:
     - Is MasterCard is Indian ?
     - Should I convert to mastercard.
 
-- intent: VisaCard
+- intent: visacard
   examples: |
     - what is visa card.
     - Please give me some information about Visa Card.
@@ -68,7 +73,7 @@ nlu:
     - Is Visa Card is Indian ?
     - Should I convert to Visa Card.
 
-- intent: RupayCard
+- intent: rupaycard
   examples: |
     - what is Rupay Card.
     - Please give me some information about Rupay Card.
@@ -91,6 +96,7 @@ nlu:
     - see you around
     - bye bye
     - see you later
+    - ok
 
 - intent: affirm
   examples: |

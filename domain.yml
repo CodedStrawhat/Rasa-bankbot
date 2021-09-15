@@ -8,6 +8,15 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - rupaycard
+  - visacard
+  - mastercard
+  - netbanking
+  - creditcard
+  - debitcard
+  - card
+  
+
 
 responses:
   utter_greet:
@@ -20,6 +29,8 @@ responses:
   cards available – including credit, debit and prepaid – offers enormous flexibility,
   follow the link for more info : http://cashlessindia.gov.in/banking_cards.html"
 
+  utter_help:
+  - text: "I can help you with your Debit Card, Credit Card, Net Banking Facilities"
   utter_debit_card:
   - text: "Here is your debit card"
   utter_credit_card:
@@ -28,6 +39,10 @@ responses:
   - text: "Here is your mastercard"
   utter_net_banking:
   - text: "Here is your netbanking account"
+  utter_rupaycard:
+  - text: "Here is your rupaycard"
+  utter_visacard:
+  - text: "Here is your visacard"
   
 
   utter_did_that_help:
