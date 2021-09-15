@@ -59,32 +59,30 @@ stories:
     - intent: goodbye
     - action: utter_goodbye
 
--	story: VisaCard
+- story: visacard
   steps:
     - intent: greet
     - action: utter_greet
     - action: utter_help
-    -	intent: visarcard
-    -	action: utter_confirm
-    -	intent: affirm
-    -	action: utter_visacard
+    - intent: visarcard
+    - action: utter_confirm
+    - intent: affirm
+    - action: utter_visacard
     - intent: goodbye
     - action: utter_goodbye
 
--	story: RupayCard
+- story: rupaycard
   steps:
     - intent: greet
     - action: utter_greet
     - action: utter_help
-    -	intent: rupaycard
-    -	action: utter_confirm
-    -	intent: affirm
-    -	action: utter_rupaycard
+    - intent: rupaycard
+    - action: utter_confirm
+    - intent: affirm
+    - action: utter_rupaycard
     - intent: goodbye
     - action: utter_goodbye
 
 
-- story : 
-  steps: 
-  - intent: goodbye 
+- story : rasa
   - action: utter_goodbye
